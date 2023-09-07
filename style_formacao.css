@@ -1,0 +1,27 @@
+.cabecalho {
+    background-color: rgb(20, 20, 20);
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover {
+    border-radius: 5px;
+    padding: 7px;
+    background-color: white;
+    color: black;
+}
+
+.corpo {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
