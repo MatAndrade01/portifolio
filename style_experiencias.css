@@ -9,6 +9,7 @@ body {
 
 .nav-link{
     color: white;
+    margin: 2.5px;
 }
 
 .nav-link:hover {
@@ -20,6 +21,10 @@ body {
 
 .corpo {
     color: white;
+}
+
+.cards_link {
+    border: 10px 10px black;
 }
 
 footer {
