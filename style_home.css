@@ -3,18 +3,22 @@ body {
 }
 
 .cabecalho {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .nav-link {
-    color: white;
+    color: black;
+    transition: 0.3s;
 }
 
-.nav-link:hover {
+.nav_efeito:hover {
+    margin-top: 3px;
     border-radius: 5px;
     padding: 7px;
-    background-color: white;
-    color: black;
+    background-color:black;
+    color: white;
 }
 
 .corpo {
