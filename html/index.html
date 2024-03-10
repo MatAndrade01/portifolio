@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/celular.css">
+</head>
+<body>
+    <header>
+        <h2>Matheus Andrade</h2>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <div class="navigation" id="Menu">
+            <span id="arrow" class="material-symbols-outlined" onclick="clickArrow()">arrow_back_ios_new</span>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Formação</a></li>
+                <li><a href="#">Experiencias</a></li>
+                <li><a href="#">Certificações</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div id="home">
+            <div id="myselfe">
+                <img src="/image/minha_foto.png" alt="Minha Foto">
+            </div>
+            <div class="backgroundTexto">
+                <div id="text">
+                    <h2>Eu sou Matheus Andarade!</h2>
+                    <h4>Desenvolvedor Front-End</h4>
+                    <p>Tenho 21 anos e sou totalmente ligado em tecnologia. No momento, tô trabalhando na Pernambuco Motos dando suporte de TI, mexendo nos sistemas e resolvendo os desafios que aparecem. Tô no último ano de Análise e Desenvolvimento de Sistemas, e tô me destacando mais no front-end. Manjo bem de Figman e tô sempre estudando pra me aprimorar. Tô empolgado pra ver o que o futuro reserva, tô pronto pra encarar qualquer desafio que vier pela frente e desenvolver umas soluções bem inovadoras.</p>
+                </div>
+            </div>
+            <div id="redesSociais">
+                <div class="imageRedesSociais">
+                <a href="#"><img src="/image/logo_github.png" alt=""></a>
+                <a href="#"><img src="/image/logo_linkedin.png" alt=""></a>
+                <a href="#"><img src="/image/logo_instagram.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function clickMenu() {
+            if (Menu.style.display == 'block') {
+                Menu.style.display = 'none'
+            }
+
+
+
+
+            else {
+                Menu.style.display = 'block'
+                burguer.style.display = 'none'
+                myselfe.style.display = 'none'
+                text.style.display = 'none'
+                redesSociais.style.display = 'none'
+            }
+
+
+        }
+
+        function clickArrow() {
+            if (Menu.style.display == 'block') {
+                Menu.style.display = 'none'
+            }
+
+            if(Menu.style.display == 'none') {
+                burguer.style.display = 'block'
+                myselfe.style.display = 'block'
+                text.style.display = 'block'
+                redesSociais.style.display = 'flex'
+            }
+        }
+
+    </script>
+</body>
+</html>
