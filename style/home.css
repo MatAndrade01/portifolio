@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/*Para Celular*/
+
+@media screen and (max-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    header h2  {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4vw;
+        margin-left: 5px;
+        color: white;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    header span {
+        color: white;
+    }
+
+    span#burguer {
+        padding: 5px;
+        cursor: pointer;
+        height: 24px;
+        display: block;
+        margin-right: 5px;
+    }
+
+    span#burguer:hover {
+        background-color: rgba(0, 0, 0, 0.185);
+        border-radius: 20px;
+        cursor: pointer;
+        padding: 5px;
+        transition: 0.6s;
+    }
+
+    span#arrow {
+        display: block;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 5px;
+        cursor: pointer;
+        width: 30px;
+        padding: 5px;
+    }
+
+    span#arrow:hover {
+        background-color: rgba(0, 0, 0, 0.103);
+        border-radius: 20px;
+        cursor: pointer;
+        padding: 5px;
+        transition: 0.6s;
+    }
+    
+
+    .navigation {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.281);
+        width: 50%;
+        text-align: center;
+    }
+
+    .navigation ul li  {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .navigation ul li:hover {
+        background-color: rgba(0, 0, 0, 0.253);
+        transition: 0.6s;
+    }
+
+    .navigation ul li a {
+        color: white;
+    }
+
+    .navigation ul li a.active {
+        color: #00abf0;
+    }
+
+    #home #myselfe img{
+        height: 400px;
+        width: 400px;
+        display: flex;
+        margin: auto;
+        display: block;
+    }
+
+    .backgroundTexto {
+        margin-top: 20px;
+        background-color: rgba(0, 0, 0, 0.267);
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #text {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding: 10px;
+    }
+
+    #text h4 {
+        padding-top: 5px;
+        font-size: 20px;
+        color: #00abf0;
+    }
+
+    #text p {
+        padding-top: 20px;
+        line-height: 25px;
+    }
+
+    #redesSociais {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imageRedesSociais img {
+        margin: 30px 10px;
+        height: 50px;
+        width: 50px;
+        padding: 1px;
+        border-radius: 50%;
+
+    }
+
+    .imageRedesSociais img:hover {
+        background-color: rgba(0, 0, 0, 0.384);
+        transform: scale(1.1, 1.1);
+        transition: 0.4s;
+    }
+}

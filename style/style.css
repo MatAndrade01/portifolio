@@ -4,6 +4,7 @@
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, #081b29, #0e1f2b, #0a2335);
     background-attachment: fixed;
     height: 100%;

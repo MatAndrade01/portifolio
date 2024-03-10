@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
+/*Para Celular*/
+
 @media screen and (max-width: 768px) {
+
+    /*HEADER*/
 
     header {
         display: flex;
         justify-content: space-between;
+        margin-bottom: 50px;
     }
 
     header h2  {
@@ -53,12 +58,12 @@
         padding: 5px;
         transition: 0.6s;
     }
+    
 
     .navigation {
         display: none;
         background-color: rgba(0, 0, 0, 0.281);
         width: 50%;
-        height: 100vh;
         text-align: center;
     }
 
@@ -80,56 +85,40 @@
         color: #00abf0;
     }
 
-    #home #myselfe img{
-        height: 400px;
-        width: 400px;
+   /*HEADER*/
+
+   /*SECTION*/
+    
+    .topCard {
         display: flex;
         margin: auto;
-        display: block;
+        height: 300px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.37);
+        border-radius: 10px 10px 0px 0px;
     }
 
-    .backgroundTexto {
-        margin-top: 20px;
+    .topCard img {
+        display: flex;
+        margin: auto;
+    }
+
+    .botoomCard {
+        display: flex;
+        margin: auto;
+        height: 150px;
+        width: 300px;
         background-color: rgba(0, 0, 0, 0.267);
-        border-radius: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
+        border-radius: 0px 0px 10px 10px;
     }
 
-    #text {
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        padding: 10px;
-    }
-
-    #text h4 {
-        padding-top: 5px;
-        font-size: 20px;
-        color: #00abf0;
-    }
-
-    #text p {
-        padding-top: 20px;
-        line-height: 25px;
-    }
-
-    #redesSociais {
+    .botoomCard h5 {
+        font-size: 15px;
         display: flex;
         justify-content: center;
+        margin: 10px auto;
+        color: #00abf0;
     }
+   /*SECTION*/
 
-    .imageRedesSociais img {
-        margin: 30px 10px;
-        height: 50px;
-        width: 50px;
-        padding: 1px;
-        border-radius: 50%;
-
-    }
-
-    .imageRedesSociais img:hover {
-        background-color: rgba(0, 0, 0, 0.384);
-        transform: scale(1.1, 1.1);
-        transition: 0.4s;
-    }
 }
