@@ -3,7 +3,7 @@
 /*Para Celular*/
 
 @media screen and (max-width: 768px) {
-
+   
     /*HEADER*/
 
     header {
@@ -88,62 +88,71 @@
    /*HEADER*/
 
    /*SECTION*/
-    
-    .topCard {
-        display: flex;
-        margin: auto;
-        height: 300px;
-        width: 300px;
-        background-color: rgba(0, 0, 0, 0.37);
-        border-radius: 10px 10px 0px 0px;
+    .card {
+        margin-bottom: 50px;
     }
 
+   .topCard {
+    display: flex;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 10px 10px 0px 0px;
+   }
     .topCard img {
         display: flex;
         margin: auto;
         height: 250px;
         width: 250px;
     }
-
+    
     .botoomCard {
         display: flex;
         margin: auto;
-        
         width: 300px;
         background-color: rgba(0, 0, 0, 0.267);
         border-radius: 0px 0px 10px 10px;
     }
-
-    .botoomCard h5.title{
+    
+    .botoomCard h5.titleCertificacao{
         font-size: 15px;
         display: flex;
         justify-content: center;
-        margin: 10px auto;
+        margin-top: 10px;
         color: #00abf0;
     }
-
-    .botoomCard p.textFaculdade {
+    .botoomCard p.textExCertificacao {
         display: flex;
+        
+        justify-content: center;
         text-align: center;
         margin-top: 40px;
         color: white;
     }
-
-    .botoomCard h5.titleCompetencia{
+    
+    .botoomCard h5.titleAprendizado{
         font-size: 15px;
         display: flex;
         justify-content: center;
         margin: 20px auto;
         color: #00abf0;
     }
-
-    .botoomCard p.competencias {
+    
+    .botoomCard .aprendizado li {
       display: flex;
+      margin-left: 10px;
+      margin-bottom: 15px;
       color: white;
       line-height: 25px;
       justify-content: center;
-      text-align: center;
+      text-align: left;
+      line-height: 25px;
     }
-   /*SECTION*/
-
+    
+    /*SECTION*/
+    
 }
+
+
+
