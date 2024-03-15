@@ -158,11 +158,11 @@
         width: 100vw;
         height: 45px;
         color: white;
-        
     }
     
     .contatos p {
-        margin-right: 10px;
+        font-size: 0.9em;
+        margin: auto;
     }
 
     .contatos {
@@ -172,9 +172,10 @@
     }
 
     .contatos img {
+        margin: auto;
+        display: flex;
         height: 25px;
         width: 25px;
-        margin-right: 10px;
     }
 
     /*FOOTER*/

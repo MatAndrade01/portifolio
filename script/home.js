@@ -12,6 +12,7 @@ function clickMenu() {
         document.body.style.overflowY = 'hidden';
         topbar.style.height = '100vh'
         logo.style.height = '38px'
+        footer.style.display = 'none'
     }
 
 }
@@ -29,5 +30,6 @@ function clickArrow() {
         document.body.style.overflowY = 'auto';
         topbar.style.height = '34px'
         logo.style.height = '38px'
+        footer.style.display = 'block'
     }
 }

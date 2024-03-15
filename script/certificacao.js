@@ -7,8 +7,10 @@ function clickMenu() {
         Menu.style.display = 'block'
         burguer.style.display = 'none'
         document.body.style.overflowY = 'hidden';
+        certificacao.style.display = 'none'
         topbar.style.height = '100vh'
         logo.style.height = '38px'
+        footer.style.display = 'none'
     }
 }
 
@@ -21,7 +23,9 @@ function clickArrow() {
         burguer.style.display = 'block'
         certificacao.style.display = 'block'
         document.body.style.overflowY = 'auto';
+        certificacao.style.display = 'block'
         topbar.style.height = '34px'
         logo.style.height = '38px'
+        footer.style.display = 'block'
     }
 }
