@@ -8,6 +8,7 @@ function clickMenu() {
         burguer.style.display = 'none'
         document.body.style.overflowY = 'hidden';
         topbar.style.height = '100vh'
+        logo.style.height = '38px'
     }
 
 }
@@ -22,6 +23,6 @@ function clickArrow() {
         formacao.style.display = 'block'
         document.body.style.overflowY = 'auto';
         topbar.style.height = '34px'
-        
+        logo.style.height = '38px'
     }
 }
