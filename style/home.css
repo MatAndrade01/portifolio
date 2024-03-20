@@ -170,7 +170,7 @@
     header {
         display: flex;
         justify-content: space-between;
-        background-color: rgba(0, 0, 0, 0.411);
+        background-color: #00000069;
         width: 100vw;
         box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.301);
     }
@@ -206,7 +206,7 @@
 
     #Menu ul li a.active {
         color: #00abf0;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+        background: linear-gradient(to top, #00000042, #0a2335);
         border-radius: 20px 20px 0px 0px;
     }
     /*HEADER*/
