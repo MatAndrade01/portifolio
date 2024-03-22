@@ -296,5 +296,126 @@
 /*PARA DESKTOP*/
 
 @media screen and (min-width: 992px) {
-
+        /*HEADER*/
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgba(0, 0, 0, 0.411);
+            width: 100vw;
+            box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.301);
+        }
+    
+        #logo  {
+            width: 200px;
+            margin-top: 10px;
+        }
+    
+        #burguer {
+            display: none;
+        }
+    
+        #Menu {
+            margin-right: 20px;
+        }
+    
+        #Menu span {
+            display: none;
+        }
+    
+        #Menu ul {
+            display: flex;
+        }
+    
+        #Menu ul li a{
+            display: flex;
+            margin-top: 10px;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+    
+        #Menu ul li a.active {
+            color: #00abf0;
+            background: linear-gradient(to top, #00000042, #0a2335);
+            border-radius: 20px 20px 0px 0px;
+        }
+        /*HEADER*/
+    
+        /*SECTION*/
+    
+    
+        .card {
+            display: flex;
+            justify-content: center;
+            margin-top: 110px;
+        }
+    
+        .topCard {
+            display: flex;
+            height: 300px;
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.37);
+            border-radius: 10px 0px 0px 10px;
+        }
+    
+        .topCard img {
+            margin: auto;
+            height: 250px;
+            width: 250px;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+        }
+    
+        .botoomCard {
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.267);
+            border-radius: 0px 10px 10px 0px;
+        }
+    
+        .botoomCard h5.titleFaculdade{
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-left: 9px;
+            color: #00abf0;
+        }
+    
+    
+        .botoomCard p.textFaculdade {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 20px;
+            color: white;
+        }
+    
+        .botoomCard h5.titleCompetencias{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: #00abf0;
+        }
+    
+        .botoomCard ul.competencias li{
+            display: flex;
+            color: white;
+            line-height: 25px;
+            justify-content: center;
+            text-align: center;
+            padding: 1px;
+        }   
+        /*SECTION*/
+    
+        /*FOOTER*/
+        .bacKgroudFooter {
+            bottom: 0;
+            position: fixed;
+            text-align: center;
+            width: 100vw;
+            height: 45px;
+            background-color: rgba(0, 0, 0, 0.267);
+        }
+        /*FOOTER*/ 
 }

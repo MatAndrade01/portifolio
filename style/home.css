@@ -219,16 +219,15 @@
 
     #home .principal  {
         display: flex;
+        justify-content: center;
     }
 
     #home #myselfe img {
-        margin-top: 50px;
         height: 400px;
         width: 400px;
     }
 
     .backgroundTexto {
-        margin-top: 10px;
         background-color: rgba(0, 0, 0, 0.267);
         border-radius: 10px;
         margin-right: 10px;
@@ -294,5 +293,132 @@
 /*PARA DESKTOP*/
 
 @media screen and (min-width: 992px) {
+    #Corpo {
+        width: 100%;
+        position: fixed;
+    }
+    /*HEADER*/
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: #00000069;
+        width: 100vw;
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.301);
+    }
+    
+    #logo  {
+        width: 200px;
+        margin-top: 10px;
+    }
+    
+    #burguer {
+        display: none;
+    }
+    
+    #Menu {
+        margin-right: 20px;
+    }
+    
+    #Menu span {
+        display: none;
+    }
 
+    #Menu ul {
+        display: flex;
+    }
+
+    #Menu ul li a{
+        display: flex;
+        margin-top: 10px;
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+    }
+
+    #Menu ul li a.active {
+        color: #00abf0;
+        background: linear-gradient(to top, #00000042, #0a2335);
+        border-radius: 20px 20px 0px 0px;
+    }
+    /*HEADER*/
+
+    /*SECTION*/
+    #home {
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    #home .principal  {
+        display: flex;
+        justify-content: center;
+    }
+
+    #home #myselfe img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .backgroundTexto {
+        width: 700px;
+        margin-top: 10px;
+        background-color: rgba(0, 0, 0, 0.267);
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.555);
+    }
+
+    #text {
+        font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    }
+
+    #text h2 {
+        font-family: "Noto Sans", sans-serif;
+    }
+
+    #text h4 {
+        font-family: "Merriweather Sans", sans-serif;
+        padding-top: 5px;
+        font-size: 20px;
+        color: #00abf0;
+    }
+
+    #text p {
+        padding-top: 20px;
+        line-height: 30px;
+        font-family: "Noto Sans", sans-serif;
+    }
+
+    #redesSociais {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imageRedesSociais img {
+        margin: 30px 10px;
+        height: 60px;
+        width: 60px;
+        padding: 1px;
+        border-radius: 50%;
+    }
+
+    .imageRedesSociais img:hover {
+        background-color: rgba(0, 0, 0, 0.384);
+        transform: scale(1.1, 1.1);
+        transition: 0.4s;
+    }
+    /*SECTION*/
+    
+    /*FOOTER*/
+    .bacKgroudFooter {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        width: 100vw;
+        height: 20px;
+        background-color: rgba(0, 0, 0, 0.267);
+    }
+    /*FOOTER*/ 
 }
